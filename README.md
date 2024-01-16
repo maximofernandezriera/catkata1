@@ -15,7 +15,6 @@ El reto es el siguiente:
 - Puede haber hasta tres gatos en el jardín, dos, uno o ninguno en un momento dado.
 - El ejercicio pide que determines si la situación es pacífica o no. Si hay uno o ningún gato, o si la distancia entre todos los gatos es al menos la mínima requerida, tu función debe devolver True. Si hay dos o tres gatos y la distancia entre al menos dos de ellos es menor que la distancia mínima, la función debe devolver False.
 
-
 ### Análisis del problema (qué necesito después de esa lectura avanzada):
 
 1. **Función `isPeaceful`**: Esta función toma dos argumentos: un array `yard` que representa el jardín, y un entero `minDistance` que es la distancia mínima de seguridad entre los gatos.
@@ -34,7 +33,7 @@ El reto es el siguiente:
 5. **Resultado**:
    - Si todas las distancias entre gatos son mayores o iguales a `minDistance`, se retorna `true`.
   
-## Visualización del jardín:
+## PUNTO CLAVE 1. LA REPRESENTACIÓN DEL JARDÍN:
 
 Para visualizar mejor cómo funciona yard[i][j], consideramos el siguiente jardín:
 
@@ -57,6 +56,28 @@ Cuando accedemos a yard[i][j], i selecciona una de estas filas, y j selecciona u
 
 * yard[0][2] accede al tercer carácter de la primera fila ('L'), ya que estamos contando desde 0.
 * yard[2][0] accede al primer carácter de la tercera fila ('M').
+
+## PUNTO CLAVE 2. LOS GATOS:
+
+Visualización del Proceso:
+Si tenemos un jardín como este:
+
+
+yard = ["--L-", "-R--", "M---"]
+
+Y encuentras gatos en estas posiciones:
+
+- Gato 1 en yard[0][2] (L)
+- Gato 2 en yard[1][1] (R)
+- Gato 3 en yard[2][0] (M)
+
+En el código serían:
+
+catPositions[0][2] = 2;
+catPositions[1][1] = 1;
+catPositions[2][0] = 0;
+
+Cada vez que encontramos un gato, almacenamos su ubicación (fila y columna) en catPositions y luego incrementamos catCount para estar listos para el próximo gato. De esta manera, catPositions termina conteniendo las coordenadas de todos los gatos en el jardín.
 
 ```
 Función isPeaceful(yard: Array de dos dimensiones, minDistance: Entero) retorna Booleano
