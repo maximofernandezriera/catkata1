@@ -18,7 +18,7 @@ El reto es el siguiente:
 
 ### Análisis del problem (qué necesito después de esa lectura avanzada):
 
-1. **Función `isPeaceful`**: Esta función toma dos argumentos: un array de strings `yard` que representa el jardín, y un entero `minDistance` que es la distancia mínima de seguridad entre los gatos.
+1. **Función `isPeaceful`**: Esta función toma dos argumentos: un array `yard` que representa el jardín, y un entero `minDistance` que es la distancia mínima de seguridad entre los gatos.
 
 2. **Inicialización de Variables**:
    - `cats`: Un array para almacenar las coordenadas de los gatos detectados.
