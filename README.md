@@ -16,7 +16,7 @@ El reto es el siguiente:
 - El ejercicio pide que determines si la situación es pacífica o no. Si hay uno o ningún gato, o si la distancia entre todos los gatos es al menos la mínima requerida, tu función debe devolver True. Si hay dos o tres gatos y la distancia entre al menos dos de ellos es menor que la distancia mínima, la función debe devolver False.
 
 
-### Análisis del problem (qué necesito después de esa lectura avanzada):
+### Análisis del problema (qué necesito después de esa lectura avanzada):
 
 1. **Función `isPeaceful`**: Esta función toma dos argumentos: un array `yard` que representa el jardín, y un entero `minDistance` que es la distancia mínima de seguridad entre los gatos.
 
@@ -24,10 +24,10 @@ El reto es el siguiente:
    - `cats`: Un array para almacenar las coordenadas de los gatos detectados.
    - `catCount`: Un contador para llevar la cuenta del número de gatos encontrados.
 
-3. **Búsqueda de Gatos**:
+3. **Búsqueda de gatos**:
    - Se recorre el array `yard`. Si se encuentra un gato (indicado por 'L', 'M' o 'R'), se almacena su posición (coordenadas `i` y `j`) en `cats`.
 
-4. **Cálculo y Verificación de Distancias**:
+4. **Cálculo y verificación de Distancias**:
    - Se calculan las distancias entre todos los pares de gatos usando la fórmula de distancia euclidiana.
    - Si alguna de las distancias es menor que `minDistance`, se retorna `false`.
 
