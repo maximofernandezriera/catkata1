@@ -32,7 +32,7 @@ El reto es el siguiente:
 
 
 ```
-Función isPeaceful(yard: Array de String, minDistance: Entero) retorna Booleano
+Función isPeaceful(yard: Array, minDistance: Entero) retorna Booleano
     Inicializar cats como Array de Entero[longitud máxima posible][2]
     Inicializar catCount como 0
 
