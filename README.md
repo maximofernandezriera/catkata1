@@ -59,5 +59,3 @@ Función isPeaceful(yard: Array de dos dimensiones, minDistance: Entero) retorna
 
     Retornar verdadero
 Fin de la Función
-
-´´´
