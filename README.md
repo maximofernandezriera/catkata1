@@ -73,9 +73,9 @@ Y encuentras gatos en estas posiciones:
 
 En el código serían:
 
-catPositions[0][2] = 2;
-catPositions[1][1] = 1;
-catPositions[2][0] = 0;
+      catPositions[0][2] = 2;
+      catPositions[1][1] = 1;
+      catPositions[2][0] = 0;
 
 Cada vez que encontramos un gato, almacenamos su ubicación (fila y columna) en catPositions y luego incrementamos catCount para estar listos para el próximo gato. De esta manera, catPositions termina conteniendo las coordenadas de todos los gatos en el jardín.
 
