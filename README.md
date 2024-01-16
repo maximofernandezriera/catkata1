@@ -33,6 +33,29 @@ El reto es el siguiente:
 
 5. **Resultado**:
    - Si todas las distancias entre gatos son mayores o iguales a `minDistance`, se retorna `true`.
+  
+Visualización del jardín:
+
+Para visualizar mejor cómo funciona yard[i][j], consideramos el siguiente jardín:
+
+
+      yard = ["--L-", "-R--", "M---"]
+      Representación como cuadrícula:
+
+       0 1 2 3
+      0 - - L -
+      1 - R - -
+      2 M - - -
+
+Cada fila del jardín es un string dentro del array yard.
+yard[0] es --L-, que representa la fila superior del jardín.
+yard[1] es -R--, que representa la segunda fila.
+yard[2] es M---, que representa la tercera fila.
+
+Cuando accedemos a yard[i][j], i selecciona una de estas filas, y j selecciona un carácter dentro de esa fila. Por ejemplo:
+
+yard[0][2] accede al tercer carácter de la primera fila ('L'), ya que estamos contando desde 0.
+yard[2][0] accede al primer carácter de la tercera fila ('M').
 
 ```
 Función isPeaceful(yard: Array de dos dimensiones, minDistance: Entero) retorna Booleano
