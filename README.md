@@ -59,7 +59,6 @@ Cuando accedemos a yard[i][j], i selecciona una de estas filas, y j selecciona u
 
 ## PUNTO CLAVE 2. LOS GATOS:
 
-Visualización del Proceso:
 Si tenemos un jardín como este:
 
 
