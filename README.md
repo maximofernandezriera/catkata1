@@ -1,4 +1,4 @@
-# Cat Kata, Part 1
+# Cat Kata, Part 1 
 
 ## https://www.codewars.com/kata/5869848f2d52095be20001d1/train/java
 
