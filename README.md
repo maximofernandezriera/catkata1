@@ -32,6 +32,8 @@ El reto es el siguiente:
 
 5. **Resultado**:
    - Si todas las distancias entre gatos son mayores o iguales a `minDistance`, se retorna `true`.
+
+### https://es.wikipedia.org/wiki/Distancia_euclidiana
   
 ## PUNTO CLAVE 1. LA REPRESENTACIÓN DEL JARDÍN:
 
